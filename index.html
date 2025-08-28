@@ -79,9 +79,36 @@
         a:hover {
             text-decoration: underline;
         }
+        .translate-widget {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        #google_translate_element {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
     </style>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'ko,en,ja,zh-cn,zh-tw,es,fr,de,ru',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
+    <div class="translate-widget">
+        <div id="google_translate_element"></div>
+    </div>
+    
     <header>
         <div class="container">
             <h1>The Swift Programming Language</h1>
