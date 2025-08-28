@@ -1,1 +1,176 @@
-<!doctype html><html lang="en-US" class="no-js"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="favicon.ico"><link rel="mask-icon" href="favicon.svg" color="#333333"><title>Documentation</title><script>var baseUrl = "/swift-book-docs/"</script><script defer="defer" src="js/chunk-vendors.bdb7cbba.js"></script><script defer="defer" src="js/index.d2f6f6a9.js"></script><link href="css/index.3a335429.css" rel="stylesheet"></head><body data-color-scheme="auto"><noscript><style>.noscript{font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;margin:92px auto 140px auto;text-align:center;width:980px}.noscript-title{color:#111;font-size:48px;font-weight:600;letter-spacing:-.003em;line-height:1.08365;margin:0 auto 54px auto;width:502px}@media only screen and (max-width:1068px){.noscript{margin:90px auto 120px auto;width:692px}.noscript-title{font-size:40px;letter-spacing:0;line-height:1.1;margin:0 auto 45px auto;width:420px}}@media only screen and (max-width:735px){.noscript{margin:45px auto 60px auto;width:87.5%}.noscript-title{font-size:32px;letter-spacing:.004em;line-height:1.125;margin:0 auto 35px auto;max-width:330px;width:auto}}#loading-placeholder{display:none}</style><div class="noscript"><h1 class="noscript-title">This page requires JavaScript.</h1><p>Please turn on JavaScript in your browser and refresh the page to view its content.</p></div></noscript><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Swift Programming Language</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #fff;
+            padding: 30px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #1d1d1f;
+            font-size: 2.5rem;
+            margin: 0;
+            text-align: center;
+        }
+        .subtitle {
+            text-align: center;
+            color: #6e6e73;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .section {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .section h2 {
+            color: #1d1d1f;
+            margin-top: 0;
+            border-bottom: 2px solid #007aff;
+            padding-bottom: 10px;
+        }
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .link-card {
+            border: 1px solid #e5e5e7;
+            border-radius: 8px;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+        .link-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .link-card h3 {
+            margin: 0 0 10px 0;
+            color: #007aff;
+        }
+        .link-card p {
+            margin: 0;
+            color: #6e6e73;
+            font-size: 0.9rem;
+        }
+        a {
+            color: #007aff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The Swift Programming Language</h1>
+            <div class="subtitle">Swift 5.10 Documentation</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Getting Started</h2>
+            <div class="links">
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/aboutswift/">About Swift</a></h3>
+                    <p>Learn about Swift's goals and approach to programming</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/guidedtour/">A Swift Tour</a></h3>
+                    <p>A quick tour of Swift's features and syntax</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/compatibility/">Version Compatibility</a></h3>
+                    <p>Information about Swift version compatibility</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Language Guide</h2>
+            <div class="links">
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/thebasics/">The Basics</a></h3>
+                    <p>Constants, variables, data types, and basic operations</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/basicoperators/">Basic Operators</a></h3>
+                    <p>Assignment, arithmetic, and comparison operators</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/stringsandcharacters/">Strings and Characters</a></h3>
+                    <p>Working with text in Swift</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/collectiontypes/">Collection Types</a></h3>
+                    <p>Arrays, sets, and dictionaries</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/controlflow/">Control Flow</a></h3>
+                    <p>Loops, conditionals, and control transfer</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/functions/">Functions</a></h3>
+                    <p>Defining and calling functions</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/closures/">Closures</a></h3>
+                    <p>Self-contained blocks of functionality</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/enumerations/">Enumerations</a></h3>
+                    <p>Defining a common type for a group of related values</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/classesandstructures/">Classes and Structures</a></h3>
+                    <p>Defining custom data types</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Reference Manual</h2>
+            <div class="links">
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/aboutthelanguagereference/">About the Language Reference</a></h3>
+                    <p>How to read the grammar notation</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/lexicalstructure/">Lexical Structure</a></h3>
+                    <p>Keywords, operators, and identifiers</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/types/">Types</a></h3>
+                    <p>Named types, compound types, and type annotations</p>
+                </div>
+                <div class="link-card">
+                    <h3><a href="documentation/the-swift-programming-language/expressions/">Expressions</a></h3>
+                    <p>Primary, postfix, and binary expressions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
